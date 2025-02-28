@@ -132,62 +132,95 @@ class Result
 //Массив с результатами
 const results = 
 [
-	new Result("Вам многому нужно научиться", 0),
-	new Result("Вы уже неплохо разбираетесь", 2),
-	new Result("Ваш уровень выше среднего", 4),
-	new Result("Вы в совершенстве знаете тему", 6)
+	new Result("вы ничего не знаете", 2),
+	new Result("вы знаете хоть что-то", 4),
+	new Result("вы почти молодец", 6),
+	new Result("вы молодцы", 8)
+	new Result("вы гений", 10)
 ];
 
 //Массив с вопросами
 const questions = 
 [
-	new Question("2 + 2 = ", 
+	new Question("что делают рыбы?", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("летают", 0),
+		new Answer("ползают", 0),
+		new Answer("плавают", 1),
+		new Answer("прыгают", 0)
 	]),
 
-	new Question("2 * 2 = ", 
+	new Question("рыбы млекопитающие?", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("не знаю", 0),
+		new Answer("да", 0),
+		new Answer("нет", 1),
+		new Answer("может быть", 0)
 	]),
 
-	new Question("2 / 2 = ", 
+	new Question("у рыб есть жабры?", 
 	[
-		new Answer("0", 0),
-		new Answer("1", 1),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("нет", 0),
+		new Answer("да", 1),
+		new Answer("возможно", 0),
+		new Answer("не знаю", 0)
 	]),
 
-	new Question("2 - 2 = ", 
+	new Question("ты рыба?", 
 	[
-		new Answer("0", 1),
-		new Answer("1", 0),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("нет", 1),
+		new Answer("да", 0),
+		new Answer("возможно частично", 0),
+		new Answer("кто такие рыбы?", 0)
 	]),
 
-	new Question("2 + 2 * 2 = ", 
+	new Question("рыбы откладывают икру?", 
 	[
-		new Answer("4", 0),
-		new Answer("6", 1),
-		new Answer("8", 0),
-		new Answer("10", 0)
+		new Answer("нет", 0),
+		new Answer("да", 1),
+		new Answer("нет, они откладывают яйца", 0),
+		new Answer("они не рожают", 0)
 	]),
 
-	new Question("2 + 2 / 2 = ", 
+	new Question("рыб едят люди?", 
 	[
-		new Answer("1", 0),
-		new Answer("2", 0),
-		new Answer("3", 1),
-		new Answer("4", 0)
+		new Answer("нет", 0),
+		new Answer("не знаю", 0),
+		new Answer("да", 1),
+		new Answer("когда-то ели", 0)
 	])
+	
+	new Question("рыб едят другие животные?", 
+	[
+		new Answer("нет", 0),
+		new Answer("да", 1),
+		new Answer("не знаю", 0),
+		new Answer("они не вкусные", 0)
+	]),
+
+	new Question("рыбы дышат?", 
+	[
+		new Answer("нет", 0),
+		new Answer("да", 1),
+		new Answer("не знаю", 0),
+		new Answer("у них нет легких", 0)
+	]),
+	
+	new Question("рыбам холодно?", 
+	[
+		new Answer("да", 0),
+		new Answer("нет", 1),
+		new Answer("не знаю", 0),
+		new Answer("смотря где", 0)
+	]),
+
+	new Question("рыбы теплые?", 
+	[
+		new Answer("да", 0),
+		new Answer("нет", 1),
+		new Answer("не знаю", 0),
+		new Answer("не трогал", 0)
+	]),
 ];
 
 //Сам тест
