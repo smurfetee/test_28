@@ -1,37 +1,38 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Quiz</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="styles/app.css">
-		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="HandheldFriendly" content="true"/>
-	</head>
-	<body>
-		<div class="wrapper">
-			<main class="main">
-				<div class="quiz__head">
-					<div class="head__content" id="head">Рыбы — обширная группа водных челюстноротых позвоночных животных, ранее считавшаяся надклассом позвоночных, ещё ранее — классом. Рыбы характеризуются жаберным дыханием на всех этапах постэмбрионального развития организма.</div>
-				</div>
-				<div class="quiz__body">
-					<div class="buttons">
-						<div class="buttons__content" id="buttons">
-							<button class="button">по умолчанию</button><br>
-							<button class="button button_wrong">неправильный ответ</button><br>
-							<button class="button button_correct">правильный ответ</button><br>
-							<button class="button button_passive">ненажатая кнопка</button><br>
-						</div>
-					</div>
 
-					<div class="quiz__footer">
-						<div class="footer__content" id="pages">0 / 0</div>
-					</div>
-				</div>
-				
-			</main>
-		</div>
-		<script type="text/javascript" src="scripts/app.js"></script>
-	</body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="true">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
+</head>
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <header class="quiz__head">
+                <div class="head__content" id="head">
+                    Рыбы — обширная группа водных челюстноротых позвоночных животных, ранее считавшаяся надклассом позвоночных, ещё ранее — классом. Рыбы характеризуются жаберным дыханием на всех этапах постэмбрионального развития организма.
+                </div>
+            </header>
+            <section class="quiz__body">
+                <div class="buttons">
+                    <div class="buttons__content" id="buttons">
+                        <button class="button">по умолчанию</button><br>
+                        <button class="button button_wrong">неправильный ответ</button><br>
+                        <button class="button button_correct">правильный ответ</button><br>
+                        <button class="button button_passive">ненажатая кнопка</button><br>
+                    </div>
+                </div>
+                <footer class="quiz__footer">
+                    <div class="footer__content" id="pages">0 / 0</div>
+                </footer>
+            </section>
+        </main>
+    </div>
+    <script type="text/javascript" src="scripts/app.js"></script>
+</body>
 </html>
